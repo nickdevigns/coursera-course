@@ -1,0 +1,28 @@
+{
+  "name": "coursera-course",
+  "version": "1.0.0",
+  "description": "John Hopkins Coursera coure on HTML, CSS, and Javascript for Web Developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdevigns/coursera-course.git"
+  },
+  "author": "Nick Doyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickdevigns/coursera-course/issues"
+  },
+  "homepage": "https://github.com/nickdevigns/coursera-course#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  },
+  "dependencies": {
+    "debug": "^4.3.2"
+  },
+  "scripts": {
+    "serve": "browser-sync start --server --files '*'"
+  }
+}
