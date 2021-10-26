@@ -4,7 +4,7 @@
   "description": "John Hopkins Coursera coure on HTML, CSS, and Javascript for Web Developers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "browser-sync start --server --files '*'"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,5 @@
   },
   "dependencies": {
     "debug": "^4.3.2"
-  },
-  "scripts": {
-    "serve": "browser-sync start --server --files '*'"
   }
 }
