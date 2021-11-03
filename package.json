@@ -4,7 +4,8 @@
   "description": "John Hopkins Coursera coure on HTML, CSS, and Javascript for Web Developers",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '*'"
+    "serve": "browser-sync start --server --files '**/*'",
+    "validate": "w3c-html-validator *.html"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/nickdevigns/coursera-course#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.5"
+    "browser-sync": "^2.27.5",
+    "w3c-html-validator": "^0.8.1"
   },
   "dependencies": {
     "debug": "^4.3.2"
