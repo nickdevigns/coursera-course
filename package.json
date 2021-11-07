@@ -4,7 +4,7 @@
   "description": "John Hopkins Coursera coure on HTML, CSS, and Javascript for Web Developers",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '**/*'",
+    "serve": "browser-sync start --server --directory --files '**/*'",
     "validate": "w3c-html-validator *.html"
   },
   "repository": {
