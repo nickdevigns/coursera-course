@@ -17,3 +17,38 @@ body {
   height: 150px;
   margin: 10px 15px 10px 0;
 }
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+/* Restaurant Name */
+.navbar-brand h1 {
+  color: #557c3e;
+  font-family: "Lora", sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 0.75;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-shadow: 1px 1px 1px #222;
+  text-transform: uppercase;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/* Kosher cert */
+.navbar-brand p {
+  color: #000;
+  font-size: 0.7em;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+/* Star-K */
+.navbar-brand p span {
+  vertical-align: middle;
+}
