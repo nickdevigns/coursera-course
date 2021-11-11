@@ -101,6 +101,9 @@ body {
   border: 2px solid #3f0c1f;
 }
 
+/** END HOME PAGE **/
+
+/** MENU CATEGORIES PAGE **/
 #menu-tile,
 #specials-tile,
 #map-tile {
@@ -164,7 +167,54 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/** END HOME PAGE **/
+
+/** END MENU CATEGORIES PAGE **/
+
+/** SINGLE CATEGORIES PAGE **/
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  /* margin-top: -15px;
+  margin-right: -15px; */
+}
+.menu-item-tile .menu-item-price span {
+  font-size: 0.6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3f0c1f;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: 0.9em;
+  font-style: italic;
+}
+/** END SINGLE CATEGORY PAGE **/
 
 /** FOOTER **/
 .panel-footer {
@@ -302,6 +352,19 @@ body {
     margin: 0 auto 15px;
   }
   /** END HOME PAGE **/
+
+  /** SINGLE CATEGORIES PAGE **/
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-photo {
+    margin-right: auto;
+    max-width: 250px;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+  /** END SINGLE CATEGORY PAGE **/
 
   /** FOOTER **/
   .panel-footer section {
